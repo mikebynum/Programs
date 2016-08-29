@@ -1,0 +1,442 @@
+Feb 6, 2012 3:36:29 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/mbynum/java/jre1.6.0_30/lib/i386/server:/home/mbynum/java/jre1.6.0_30/lib/i386:/home/mbynum/java/jre1.6.0_30/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib
+Feb 6, 2012 3:36:29 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8082
+Feb 6, 2012 3:36:29 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1090 ms
+Feb 6, 2012 3:36:29 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Feb 6, 2012 3:36:29 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Feb 6, 2012 3:36:29 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Feb 6, 2012 3:36:30 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Feb 6, 2012 3:36:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Feb 6, 2012 3:36:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Feb 6, 2012 3:36:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory jsp_hello
+Feb 6, 2012 3:36:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Feb 6, 2012 3:36:30 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8082
+Feb 6, 2012 3:36:30 PM org.apache.jk.common.ChannelSocket init
+INFO: Port busy 8009 java.net.BindException: Address already in use
+Feb 6, 2012 3:36:30 PM org.apache.jk.common.ChannelSocket init
+SEVERE: Can't find free port 8009 8009
+Feb 6, 2012 3:36:30 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/31  config=null
+Feb 6, 2012 3:36:30 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 776 ms
+Feb 6, 2012 3:37:37 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8082
+Feb 6, 2012 3:37:38 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Feb 6, 2012 3:37:38 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8082
+Feb 6, 2012 3:37:39 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/mbynum/java/jre1.6.0_30/lib/i386/server:/home/mbynum/java/jre1.6.0_30/lib/i386:/home/mbynum/java/jre1.6.0_30/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib
+Feb 6, 2012 3:37:39 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8082
+Feb 6, 2012 3:37:39 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 388 ms
+Feb 6, 2012 3:37:39 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Feb 6, 2012 3:37:39 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Feb 6, 2012 3:37:39 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Feb 6, 2012 3:37:39 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Feb 6, 2012 3:37:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Feb 6, 2012 3:37:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Feb 6, 2012 3:37:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory jsp_hello
+Feb 6, 2012 3:37:39 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Feb 6, 2012 3:37:39 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8082
+Feb 6, 2012 3:37:40 PM org.apache.jk.common.ChannelSocket init
+INFO: Port busy 8009 java.net.BindException: Address already in use
+Feb 6, 2012 3:37:40 PM org.apache.jk.common.ChannelSocket init
+SEVERE: Can't find free port 8009 8009
+Feb 6, 2012 3:37:40 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/9  config=null
+Feb 6, 2012 3:37:40 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 450 ms
+Feb 6, 2012 3:40:07 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8082
+Feb 6, 2012 3:40:08 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Feb 6, 2012 3:40:08 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8082
+Feb 6, 2012 3:40:11 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/mbynum/java/jre1.6.0_30/lib/i386/server:/home/mbynum/java/jre1.6.0_30/lib/i386:/home/mbynum/java/jre1.6.0_30/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib
+Feb 6, 2012 3:40:11 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8082
+Feb 6, 2012 3:40:11 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 386 ms
+Feb 6, 2012 3:40:11 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Feb 6, 2012 3:40:11 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Feb 6, 2012 3:40:11 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Feb 6, 2012 3:40:11 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Feb 6, 2012 3:40:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Feb 6, 2012 3:40:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Feb 6, 2012 3:40:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory jsp_listener
+Feb 6, 2012 3:40:11 PM org.apache.catalina.startup.ContextConfig applicationWebConfig
+SEVERE: Parse error in application web.xml file at jndi:/localhost/jsp_listener/WEB-INF/web.xml
+com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 1 of 1-byte UTF-8 sequence.
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.invalidByte(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.read(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.skipSpaces(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$ContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1642)
+	at org.apache.catalina.startup.ContextConfig.applicationWebConfig(ContextConfig.java:365)
+	at org.apache.catalina.startup.ContextConfig.start(ContextConfig.java:1076)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:261)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4612)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:601)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1079)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1002)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:506)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:840)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 6, 2012 3:40:11 PM org.apache.catalina.startup.ContextConfig start
+SEVERE: Marking this application unavailable due to previous error(s)
+Feb 6, 2012 3:40:11 PM org.apache.catalina.core.StandardContext start
+SEVERE: Error getConfigured
+Feb 6, 2012 3:40:11 PM org.apache.catalina.core.StandardContext start
+SEVERE: Context [/jsp_listener] startup failed due to previous errors
+Feb 6, 2012 3:40:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory jsp_hello
+Feb 6, 2012 3:40:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Feb 6, 2012 3:40:11 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8082
+Feb 6, 2012 3:40:11 PM org.apache.jk.common.ChannelSocket init
+INFO: Port busy 8009 java.net.BindException: Address already in use
+Feb 6, 2012 3:40:11 PM org.apache.jk.common.ChannelSocket init
+SEVERE: Can't find free port 8009 8009
+Feb 6, 2012 3:40:11 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/9  config=null
+Feb 6, 2012 3:40:11 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 483 ms
+Feb 6, 2012 3:42:56 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8082
+Feb 6, 2012 3:42:57 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Feb 6, 2012 3:42:57 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8082
+Feb 6, 2012 3:42:59 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/mbynum/java/jre1.6.0_30/lib/i386/server:/home/mbynum/java/jre1.6.0_30/lib/i386:/home/mbynum/java/jre1.6.0_30/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib
+Feb 6, 2012 3:42:59 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8082
+Feb 6, 2012 3:42:59 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 386 ms
+Feb 6, 2012 3:42:59 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Feb 6, 2012 3:42:59 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Feb 6, 2012 3:42:59 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Feb 6, 2012 3:43:00 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Feb 6, 2012 3:43:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Feb 6, 2012 3:43:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Feb 6, 2012 3:43:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory jsp_listener
+Feb 6, 2012 3:43:00 PM org.apache.catalina.startup.ContextConfig applicationWebConfig
+SEVERE: Parse error in application web.xml file at jndi:/localhost/jsp_listener/WEB-INF/web.xml
+com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 1 of 1-byte UTF-8 sequence.
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.invalidByte(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.read(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.skipSpaces(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$ContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1642)
+	at org.apache.catalina.startup.ContextConfig.applicationWebConfig(ContextConfig.java:365)
+	at org.apache.catalina.startup.ContextConfig.start(ContextConfig.java:1076)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:261)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4612)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:601)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1079)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1002)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:506)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:840)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 6, 2012 3:43:00 PM org.apache.catalina.startup.ContextConfig start
+SEVERE: Marking this application unavailable due to previous error(s)
+Feb 6, 2012 3:43:00 PM org.apache.catalina.core.StandardContext start
+SEVERE: Error getConfigured
+Feb 6, 2012 3:43:00 PM org.apache.catalina.core.StandardContext start
+SEVERE: Context [/jsp_listener] startup failed due to previous errors
+Feb 6, 2012 3:43:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory jsp_hello
+Feb 6, 2012 3:43:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Feb 6, 2012 3:43:00 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8082
+Feb 6, 2012 3:43:00 PM org.apache.jk.common.ChannelSocket init
+INFO: Port busy 8009 java.net.BindException: Address already in use
+Feb 6, 2012 3:43:00 PM org.apache.jk.common.ChannelSocket init
+SEVERE: Can't find free port 8009 8009
+Feb 6, 2012 3:43:00 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/9  config=null
+Feb 6, 2012 3:43:00 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 468 ms
+Feb 6, 2012 3:43:37 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8082
+Feb 6, 2012 3:43:38 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Feb 6, 2012 3:43:38 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8082
+Feb 6, 2012 3:43:40 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/mbynum/java/jre1.6.0_30/lib/i386/server:/home/mbynum/java/jre1.6.0_30/lib/i386:/home/mbynum/java/jre1.6.0_30/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib
+Feb 6, 2012 3:43:40 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8082
+Feb 6, 2012 3:43:40 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 387 ms
+Feb 6, 2012 3:43:41 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Feb 6, 2012 3:43:41 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Feb 6, 2012 3:43:41 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Feb 6, 2012 3:43:41 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Feb 6, 2012 3:43:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Feb 6, 2012 3:43:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Feb 6, 2012 3:43:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory jsp_listener
+Feb 6, 2012 3:43:41 PM org.apache.catalina.startup.ContextConfig applicationWebConfig
+SEVERE: Parse error in application web.xml file at jndi:/localhost/jsp_listener/WEB-INF/web.xml
+com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 1 of 1-byte UTF-8 sequence.
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.invalidByte(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.read(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.skipSpaces(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$ContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1642)
+	at org.apache.catalina.startup.ContextConfig.applicationWebConfig(ContextConfig.java:365)
+	at org.apache.catalina.startup.ContextConfig.start(ContextConfig.java:1076)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:261)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4612)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:601)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1079)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1002)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:506)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:840)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 6, 2012 3:43:41 PM org.apache.catalina.startup.ContextConfig start
+SEVERE: Marking this application unavailable due to previous error(s)
+Feb 6, 2012 3:43:41 PM org.apache.catalina.core.StandardContext start
+SEVERE: Error getConfigured
+Feb 6, 2012 3:43:41 PM org.apache.catalina.core.StandardContext start
+SEVERE: Context [/jsp_listener] startup failed due to previous errors
+Feb 6, 2012 3:43:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory jsp_hello
+Feb 6, 2012 3:43:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Feb 6, 2012 3:43:41 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8082
+Feb 6, 2012 3:43:41 PM org.apache.jk.common.ChannelSocket init
+INFO: Port busy 8009 java.net.BindException: Address already in use
+Feb 6, 2012 3:43:41 PM org.apache.jk.common.ChannelSocket init
+SEVERE: Can't find free port 8009 8009
+Feb 6, 2012 3:43:41 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=1/9  config=null
+Feb 6, 2012 3:43:41 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 470 ms
+Feb 6, 2012 3:44:27 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8082
+Feb 6, 2012 3:44:28 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Feb 6, 2012 3:44:28 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8082
+Feb 6, 2012 3:44:31 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/mbynum/java/jre1.6.0_30/lib/i386/server:/home/mbynum/java/jre1.6.0_30/lib/i386:/home/mbynum/java/jre1.6.0_30/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib
+Feb 6, 2012 3:44:31 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8082
+Feb 6, 2012 3:44:31 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 386 ms
+Feb 6, 2012 3:44:31 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Feb 6, 2012 3:44:31 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Feb 6, 2012 3:44:31 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Feb 6, 2012 3:44:31 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Feb 6, 2012 3:44:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Feb 6, 2012 3:44:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Feb 6, 2012 3:44:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory jsp_listener
+Feb 6, 2012 3:44:31 PM org.apache.catalina.startup.ContextConfig applicationWebConfig
+SEVERE: Parse error in application web.xml file at jndi:/localhost/jsp_listener/WEB-INF/web.xml
+com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 1 of 1-byte UTF-8 sequence.
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.invalidByte(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.read(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.skipSpaces(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$ContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1642)
+	at org.apache.catalina.startup.ContextConfig.applicationWebConfig(ContextConfig.java:365)
+	at org.apache.catalina.startup.ContextConfig.start(ContextConfig.java:1076)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:261)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4612)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:601)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1079)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1002)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:506)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:840)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+Feb 6, 2012 3:44:31 PM org.apache.catalina.startup.ContextConfig start
+SEVERE: Marking this application unavailable due to previous error(s)
+Feb 6, 2012 3:44:31 PM org.apache.catalina.core.StandardContext start
+SEVERE: Error getConfigured
+Feb 6, 2012 3:44:31 PM org.apache.catalina.core.StandardContext start
+SEVERE: Context [/jsp_listener] startup failed due to previous errors
+Feb 6, 2012 3:44:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory jsp_hello
+Feb 6, 2012 3:44:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Feb 6, 2012 3:44:31 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8082
+Feb 6, 2012 3:44:31 PM org.apache.jk.common.ChannelSocket init
+INFO: Port busy 8009 java.net.BindException: Address already in use
+Feb 6, 2012 3:44:31 PM org.apache.jk.common.ChannelSocket init
+SEVERE: Can't find free port 8009 8009
+Feb 6, 2012 3:44:31 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/9  config=null
+Feb 6, 2012 3:44:31 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 468 ms

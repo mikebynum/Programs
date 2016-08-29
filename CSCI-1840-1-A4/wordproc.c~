@@ -1,0 +1,162 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+int comparator ( const void * elem1, const void * elem2);
+
+int main(int argc, char **argv) /*argc count of number of parameters; argv is 
+array of pointers to string that contains the parameters entered when the program was invoked*/
+{
+    int i = 0; /*used as a counter*/
+    int linelength; /* length of each line */
+    char *filename; /* name of the file to open */
+
+    FILE *inputfile; /* actual file to be opened */
+	FILE *outputfile; /* actual file used for the output*/
+	FILE *wordfile;
+
+    char nextword[102]; /* character array that holds each the letters of each of the words */
+	char outname[100]; /* name of the ouput file */
+	int currentLength=0; /* current length of the line */
+	char **wordlist = NULL;
+	int size = 0, x = 0;
+	char temp[50];
+
+	typedef struct wordrec{
+		int count;
+		char *word;
+	}count; /*structure for holding the record of the word*/
+
+	count *arr = NULL;
+
+    printf("argc = %d\n", argc);
+
+/****************validation of input*************************************************/
+
+    for (i = 0; i < argc; i++)
+	{
+        printf("argv[%d] = \"%s\"\n", i, argv[i]);
+    }
+
+    if (argc != 3) /*if there are not 3 elements then something is left out and print message*/
+	{
+        printf("Usage: %s -- requires 2 arguments, length and file. Please fix and try again.\n",argv[0]);
+         return (1);
+    }
+
+    printf ("line length = %s\n", argv[1]);
+    printf("filename = %s\n", argv[2]);
+
+/************************end validation of input************************************************************/
+
+/************************beginning of part 1****************************************************************/
+
+    linelength = atoi(argv[1]); /* convert line length argument to integer */   
+	filename = argv[2]; /*puts the name of the file into the variable*/                            
+
+    if ((linelength < 25) || (linelength > 100)) /*if the length of the line is out of range, output the error message*/
+	{
+        printf("invalid length specified %d -- must be between 25 and 100", linelength);
+        return 1;
+    }
+    
+    inputfile = fopen( filename, "r"); /*open the file and store it into "inputfile" */
+
+    if (inputfile == NULL) /*if the file doesn't exist print out the error message*/
+	{
+        printf("Can't open file : %s\n", filename);
+        return 1;
+    }
+
+	sprintf(outname,"%s.out", argv[2]);
+	outputfile = fopen( outname,"w");
+
+	if (outputfile == NULL) 
+	{
+        printf("cant create file\n");
+        return 1;
+    }
+
+    while (  fscanf(inputfile, "%s", nextword) != EOF) 
+	{
+
+/*        printf("next word: %s\n", nextword);
+        printf("word length: %d\n", strlen(nextword));
+	
+*/
+
+		wordlist = realloc (wordlist, (size + 1) * sizeof(char *));
+		wordlist[size++] = strdup(nextword);
+
+		if((currentLength + strlen(nextword)) <= linelength)
+		{
+			currentLength += strlen(nextword) + 1;
+
+			fputs(nextword, outputfile);
+			fputs(" ",outputfile);
+		}
+
+		else
+		{
+			fputs("\n",outputfile);
+			fputs(nextword, outputfile);
+			fputs(" ",outputfile);
+			currentLength = strlen(nextword) +1;
+		}
+    }
+
+/********************end of part 1 *******************************************************/
+
+/********************start of part B ****************************************************/	
+
+	qsort (wordlist, size, sizeof(wordlist[0]), comparator);
+
+	sprintf ( outname, "%s.words", argv[2]);
+	wordfile = fopen (outname, "w");
+
+	if ( wordfile == NULL)
+	{
+		printf ("Cannot create file - error");
+		return(1);
+	}
+
+	arr = (count *) realloc (arr, (x+1) * sizeof(count));
+	arr[x].word = wordlist[0];
+	arr[x].count = 1;
+
+	for (i=1; i<size; i++)
+	{
+		if (strcmp (wordlist[i], arr[x].word) == 0) /*check to see if we need ==0*/
+		{
+			arr[x].count++;
+		}
+		else
+		{
+			fputs (arr[x].word, wordfile);
+			fputs (" = ", wordfile);
+			sprintf (temp, "%d", arr[x].count);
+			fputs (temp, wordfile);
+			fputs ("\n", wordfile);
+
+			arr = (count *) realloc (arr, (x+2) * sizeof(count));
+			arr[++x].word = wordlist[0];
+			arr[x].count = 1;
+		}
+	}
+	
+	/*
+	free(wordlist);
+	free(arr)
+	*/
+
+    fclose(inputfile);
+	fclose(outputfile);
+	fclose(wordfile);
+
+    return 0;
+}
+
+int comparator ( const void * elem1, const void * elem2)
+{
+	return (strcmp (* (char**) elem1, * (char **) elem2));
+}

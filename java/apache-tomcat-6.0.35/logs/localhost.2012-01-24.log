@@ -1,0 +1,172 @@
+Jan 24, 2012 1:55:11 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jan 24, 2012 1:55:11 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jan 24, 2012 1:55:12 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Jan 24, 2012 1:55:12 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Jan 24, 2012 2:14:32 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Jan 24, 2012 2:14:32 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Jan 24, 2012 2:14:36 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jan 24, 2012 2:14:36 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jan 24, 2012 2:36:04 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Jan 24, 2012 2:36:04 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Jan 24, 2012 2:36:27 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jan 24, 2012 2:36:27 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jan 24, 2012 2:36:33 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet JSP Hello threw exception
+java.lang.IllegalArgumentException: Path result.jsp does not start with a "/" character
+	at org.apache.catalina.core.ApplicationContext.getRequestDispatcher(ApplicationContext.java:374)
+	at org.apache.catalina.core.ApplicationContextFacade.getRequestDispatcher(ApplicationContextFacade.java:196)
+	at com.example.web.hello.doPost(hello.java:15)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+Jan 24, 2012 2:38:04 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Jan 24, 2012 2:38:04 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Jan 24, 2012 2:38:06 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jan 24, 2012 2:38:06 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jan 24, 2012 3:03:34 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Jan 24, 2012 3:03:34 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Jan 24, 2012 3:04:46 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jan 24, 2012 3:04:46 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jan 24, 2012 3:12:27 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Jan 24, 2012 3:12:27 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Jan 24, 2012 3:13:35 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Jan 24, 2012 3:13:35 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Jan 24, 2012 3:13:44 PM org.apache.catalina.core.ApplicationDispatcher invoke
+SEVERE: Servlet.service() for servlet jsp threw exception
+org.apache.jasper.JasperException: /result.jsp(5,29) The function getParameter must be used with a prefix when a default namespace is not specified
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:40)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:407)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:148)
+	at org.apache.jasper.compiler.Validator$ValidateVisitor$1FVVisitor.visit(Validator.java:1506)
+	at org.apache.jasper.compiler.ELNode$Function.accept(ELNode.java:129)
+	at org.apache.jasper.compiler.ELNode$Nodes.visit(ELNode.java:200)
+	at org.apache.jasper.compiler.ELNode$Visitor.visit(ELNode.java:242)
+	at org.apache.jasper.compiler.ELNode$Root.accept(ELNode.java:56)
+	at org.apache.jasper.compiler.ELNode$Nodes.visit(ELNode.java:200)
+	at org.apache.jasper.compiler.Validator$ValidateVisitor.validateFunctions(Validator.java:1531)
+	at org.apache.jasper.compiler.Validator$ValidateVisitor.prepareExpression(Validator.java:1536)
+	at org.apache.jasper.compiler.Validator$ValidateVisitor.visit(Validator.java:720)
+	at org.apache.jasper.compiler.Node$ELExpression.accept(Node.java:958)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2361)
+	at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:2411)
+	at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:2417)
+	at org.apache.jasper.compiler.Node$Root.accept(Node.java:495)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2361)
+	at org.apache.jasper.compiler.Validator.validateExDirectives(Validator.java:1763)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:198)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:321)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:328)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:436)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:374)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at com.example.web.hello.doPost(hello.java:14)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)
+Jan 24, 2012 3:13:44 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet JSP Hello threw exception
+org.apache.jasper.JasperException: /result.jsp(5,29) The function getParameter must be used with a prefix when a default namespace is not specified
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:40)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:407)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:148)
+	at org.apache.jasper.compiler.Validator$ValidateVisitor$1FVVisitor.visit(Validator.java:1506)
+	at org.apache.jasper.compiler.ELNode$Function.accept(ELNode.java:129)
+	at org.apache.jasper.compiler.ELNode$Nodes.visit(ELNode.java:200)
+	at org.apache.jasper.compiler.ELNode$Visitor.visit(ELNode.java:242)
+	at org.apache.jasper.compiler.ELNode$Root.accept(ELNode.java:56)
+	at org.apache.jasper.compiler.ELNode$Nodes.visit(ELNode.java:200)
+	at org.apache.jasper.compiler.Validator$ValidateVisitor.validateFunctions(Validator.java:1531)
+	at org.apache.jasper.compiler.Validator$ValidateVisitor.prepareExpression(Validator.java:1536)
+	at org.apache.jasper.compiler.Validator$ValidateVisitor.visit(Validator.java:720)
+	at org.apache.jasper.compiler.Node$ELExpression.accept(Node.java:958)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2361)
+	at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:2411)
+	at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:2417)
+	at org.apache.jasper.compiler.Node$Root.accept(Node.java:495)
+	at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2361)
+	at org.apache.jasper.compiler.Validator.validateExDirectives(Validator.java:1763)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:198)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:334)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:321)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:592)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:328)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:313)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:260)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:646)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:436)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:374)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at com.example.web.hello.doPost(hello.java:14)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:637)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:859)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:602)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Unknown Source)

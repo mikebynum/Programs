@@ -1,0 +1,34 @@
+/*CSS Styles*/
+body
+{
+	font-family: Calibri;
+	font-size: 14pt;
+}
+tr 
+{
+	background-color: #CC3333;
+	color: #FFF;
+}
+tr.evenTr
+{
+	background-color: #990000;
+}
+th
+{
+	font-family: Cambri;
+	font-size: 18pt;
+}
+.noColor
+{
+	background-color: #FFF;
+	color: #000;
+}
+.exampleText
+{
+	color: #CCCCCC;
+}
+.query
+{
+	font-family: "Courier New";
+	font-size: 12pt;
+}

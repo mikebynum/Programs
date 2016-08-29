@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="jsp_listener">
+        <wb-resource deploy-path="/" source-path="/web" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/" source-path="/etc"/>
+        <property name="context-root" value="jsp_listener"/>
+        <property name="java-output-path" value="/jsp_listener/build/classes"/>
+    </wb-module>
+</project-modules>

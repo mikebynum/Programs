@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-app_2_5.xsd"
+version="2.5">
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    
+	<servlet>
+		<servlet-name>list</servlet-name>
+		<servlet-class>com.example.web.List</servlet-class>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>list</servlet-name>
+		<url-pattern>/list</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>edit</servlet-name>
+		<servlet-class>com.example.web.Edit</servlet-class>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>edit</servlet-name>
+		<url-pattern>/edit</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>delete</servlet-name>
+		<servlet-class>com.example.web.Delete</servlet-class>
+	</servlet>
+		
+	<servlet-mapping>
+		<servlet-name>delete</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>add</servlet-name>
+		<servlet-class>com.example.web.Add</servlet-class></servlet>
+	<servlet-mapping>
+		<servlet-name>add</servlet-name>
+		<url-pattern>/add</url-pattern></servlet-mapping>
+
+	
+	<servlet>
+		<servlet-class>com.example.controller.AddDo</servlet-class>
+		<servlet-name>addDo</servlet-name>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addDo</servlet-name>
+		<url-pattern>/addDo</url-pattern>
+	</servlet-mapping>
+		
+	<servlet>
+		<servlet-name>deleteDo</servlet-name>
+		<servlet-class>com.example.controller.DeleteDo</servlet-class></servlet>
+	<servlet-mapping>
+		<servlet-name>deleteDo</servlet-name>
+		<url-pattern>/deleteDo</url-pattern>
+	</servlet-mapping>
+		
+	<servlet>
+		<servlet-name>editDo</servlet-name>
+		<servlet-class>com.example.controller.EditDo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>editDo</servlet-name>
+		<url-pattern>/editDo</url-pattern>
+	</servlet-mapping>
+
+	<context-param>
+		<param-name>database_url</param-name>
+		<param-value>jdbc:mysql://127.0.0.1/mbynum</param-value>
+	</context-param><context-param>
+		<param-name>database_driver</param-name>
+		<param-value>com.mysql.jdbc.Driver</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>database_username</param-name>
+		<param-value>mbynum</param-value>
+	</context-param>
+	
+	<context-param>
+		<param-name>database_password</param-name>
+		<param-value>mbynum</param-value>
+	</context-param>
+	
+	<listener>
+		<listener-class>
+			com.example.web.MyServletContextListener
+		</listener-class>
+	</listener>
+	<servlet></servlet>
+
+</web-app>

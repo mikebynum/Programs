@@ -1,0 +1,44 @@
+Jan 29, 2012 5:12:26 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8082
+Jan 29, 2012 5:12:27 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jan 29, 2012 5:12:27 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8082
+Jan 29, 2012 5:12:30 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/mbynum/java/jre1.6.0_30/lib/i386/server:/home/mbynum/java/jre1.6.0_30/lib/i386:/home/mbynum/java/jre1.6.0_30/../lib/i386:/usr/java/packages/lib/i386:/lib:/usr/lib
+Jan 29, 2012 5:12:31 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8082
+Jan 29, 2012 5:12:31 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 872 ms
+Jan 29, 2012 5:12:31 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Jan 29, 2012 5:12:31 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Jan 29, 2012 5:12:31 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor manager.xml
+Jan 29, 2012 5:12:31 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor host-manager.xml
+Jan 29, 2012 5:12:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory examples
+Jan 29, 2012 5:12:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory ROOT
+Jan 29, 2012 5:12:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory jsp_hello
+Jan 29, 2012 5:12:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory docs
+Jan 29, 2012 5:12:31 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8082
+Jan 29, 2012 5:12:31 PM org.apache.jk.common.ChannelSocket init
+INFO: Port busy 8009 java.net.BindException: Address already in use
+Jan 29, 2012 5:12:31 PM org.apache.jk.common.ChannelSocket init
+SEVERE: Can't find free port 8009 8009
+Jan 29, 2012 5:12:31 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/23  config=null
+Jan 29, 2012 5:12:31 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 906 ms
+Jan 29, 2012 5:19:21 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8082
+Jan 29, 2012 5:19:22 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Jan 29, 2012 5:19:22 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8082

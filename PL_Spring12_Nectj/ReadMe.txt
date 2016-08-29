@@ -1,0 +1,1 @@
+My test_nofunc takes about 2 minutes to start, but it does run.

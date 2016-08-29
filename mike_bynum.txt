@@ -1,0 +1,92 @@
+mysql> use mbynum;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> show tables;
++------------------+
+| Tables_in_mbynum |
++------------------+
+| album            |
+| artist           |
+| genre            |
+| songs            |
++------------------+
+4 rows in set (0.00 sec)
+
+mysql> select * from songs;
++---------+--------------------+----------+---------+---------+
+| idsongs | song_name          | idArtist | genre   | idAlbum |
++---------+--------------------+----------+---------+---------+
+|       1 | I Need You Now     |      100 | Country |       4 |
+|       2 | Grenade            |      101 | Pop     |       5 |
+|       3 | Somewhere With You |      102 | Country |       1 |
+|       4 | Put You in a Song  |      103 | Country |       3 |
+|       5 | American Honey     |      100 | Country |       4 |
+|       6 | Hello World        |      100 | Country |       4 |
++---------+--------------------+----------+---------+---------+
+6 rows in set (0.01 sec)
+
+
+mysql> select * from `songs` where idAlbum =4;
++---------+----------------+----------+---------+---------+
+| idsongs | song_name      | idArtist | genre   | idAlbum |
++---------+----------------+----------+---------+---------+
+|       1 | I Need You Now |      100 | Country |       4 |
+|       5 | American Honey |      100 | Country |       4 |
+|       6 | Hello World    |      100 | Country |       4 |
++---------+----------------+----------+---------+---------+
+3 rows in set (0.00 sec)
+
+
+mysql> select * from `songs` where idAlbum =4 or genre ="Pop";
++---------+----------------+----------+---------+---------+
+| idsongs | song_name      | idArtist | genre   | idAlbum |
++---------+----------------+----------+---------+---------+
+|       1 | I Need You Now |      100 | Country |       4 |
+|       2 | Grenade        |      101 | Pop     |       5 |
+|       5 | American Honey |      100 | Country |       4 |
+|       6 | Hello World    |      100 | Country |       4 |
++---------+----------------+----------+---------+---------+
+4 rows in set (0.00 sec)
+
+mysql> select * from songs NATURAL JOIN artist;
++----------+---------+--------------------+---------+---------+-----------------                                             +
+| idArtist | idsongs | song_name          | genre   | idAlbum | artist_name                                                  |
++----------+---------+--------------------+---------+---------+-----------------                                             +
+|      100 |       1 | I Need You Now     | Country |       4 | Lady Antebellum                                              |
+|      100 |       5 | American Honey     | Country |       4 | Lady Antebellum                                              |
+|      100 |       6 | Hello World        | Country |       4 | Lady Antebellum                                              |
+|      101 |       2 | Grenade            | Pop     |       5 | Bruno Mars                                                   |
+|      102 |       3 | Somewhere With You | Country |       1 | Kenny Chesney                                                |
+|      103 |       4 | Put You in a Song  | Country |       3 | Keith Urban                                                  |
++----------+---------+--------------------+---------+---------+-----------------                                             +
+6 rows in set (0.00 sec)
+
+
+mysql> select song_name from songs;
++--------------------+
+| song_name          |
++--------------------+
+| I Need You Now     |
+| Grenade            |
+| Somewhere With You |
+| Put You in a Song  |
+| American Honey     |
+| Hello World        |
++--------------------+
+6 rows in set (0.00 sec)
+
+
+mysql> select song_name,artist_name from songs NATURAL JOIN artist;
++--------------------+-----------------+
+| song_name          | artist_name     |
++--------------------+-----------------+
+| I Need You Now     | Lady Antebellum |
+| American Honey     | Lady Antebellum |
+| Hello World        | Lady Antebellum |
+| Grenade            | Bruno Mars      |
+| Somewhere With You | Kenny Chesney   |
+| Put You in a Song  | Keith Urban     |
++--------------------+-----------------+
+6 rows in set (0.00 sec)
