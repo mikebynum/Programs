@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AndroidJSONTestActivity!</string>
+    <string name="app_name">Business Listings</string>
+
+</resources>
